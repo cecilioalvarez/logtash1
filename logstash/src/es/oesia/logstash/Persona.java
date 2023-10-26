@@ -29,9 +29,13 @@ public class Persona {
 		this.apellidos = apellidos;
 		this.edad = edad;
 	}
+//	@Override
+//	public String toString() {
+//		return "Persona [nombre=" + nombre + ", apellidos=" + apellidos + ", edad=" + edad + "]";
+//	}
 	@Override
 	public String toString() {
-		return "Persona [nombre=" + nombre + ", apellidos=" + apellidos + ", edad=" + edad + "]";
+		return nombre + ","+ apellidos + ","+edad;
 	}
 	
 }
