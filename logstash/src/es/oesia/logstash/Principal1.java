@@ -11,7 +11,7 @@ public class Principal1 {
 
 		try {
 			String texto = "hola que tal estamos amigos \n";
-			for (int i = 0; i < 100; i++) {
+			for (int i = 0; i < 50; i++) {
 				Path fichero = Path.of(
 						"C:\\Users\\cecilioalvarezcaules\\Desktop\\oesialogtash\\logstash-8.10.4\\ficherosorigen\\fichero1.txt");
 				Files.writeString(fichero, texto +i,StandardOpenOption.APPEND);
